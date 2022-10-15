@@ -4,3 +4,6 @@
 - sécurité, vidéo-surveillance
 - énergie
 - sports
+- covid, vaccination
+- population
+- guerre en Ukraine
