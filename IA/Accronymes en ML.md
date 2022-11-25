@@ -1,6 +1,8 @@
 # Accronymes en Machine Learning 
 
-**source :**
+**source :** Boutaba, R., Salahuddin, M. A., Limam, N., Ayoubi, S., Shahriar, N., Estrada-Solano, F., & Caicedo, O. M. (2018). A comprehensive survey on machine learning for networking: evolution, applications and research opportunities. Journal of Internet Services and Applications, 9(1), 1-99.
+
+---
 
 **AdaBoost** Adaptive Boosting
 
