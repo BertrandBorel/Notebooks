@@ -7,4 +7,4 @@
 - Tensorflow_5 : [Overfitting et underfitting](https://github.com/BertrandBorel/Notebooks/blob/main/IA/Tensorflow/Tensorflow_5.ipynb)
 - Tensorflow_6 : [Enregistrer et charger des modèles](https://github.com/BertrandBorel/Notebooks/blob/main/IA/Tensorflow/Tensorflow_6.ipynb)
 - Tensorflow_7 : [Régler les hyperparamètres avec Keras Tuner](https://github.com/BertrandBorel/Notebooks/blob/main/IA/Tensorflow/Tensorflow_7.ipynb)
-- Tensforflow_8 : [Charger et prétraiter les images]()
+- Tensforflow_8 : [Charger et prétraiter les images](https://github.com/BertrandBorel/Notebooks/blob/main/IA/Tensorflow/Tensorflow_8.ipynb)
