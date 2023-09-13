@@ -68,3 +68,27 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 Si le dossier est protégé utiliser : `rm -rf [nom]`
 
 Si cela ne fonctionne pas, utiliser : `sudo rm -r -f [nom]`
+
+## Lire un fichier ligne par ligne
+`while read line; do echo $line; done < movies.json`
+
+## Ecrire plusieurs lignes dans un fichier
+### Methode 1 :
+`echo "line 1 content" >> myfile.txt`
+`echo "line 2 content" >> myfile.txt`
+`echo "line 3 content" >> myfile.txt`
+
+### Methode 2 :
+`echo "line 1 content`
+`line 2 content`
+`line 3 content" >> myfile.txt`
+
+### Methode 3 :
+`cat >> greetings.txt <<EOL`
+`line 1 content`
+`line 2 content`
+`line 3 content`
+`EOL`
+
+## Accéder aux fichiers Ubuntu dans l'explorer de Windows
+`\\wsl$`
