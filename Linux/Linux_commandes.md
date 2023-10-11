@@ -1,5 +1,8 @@
 # Commandes Linux
 
+## Vérifier la version d'Ubuntu
+`lsb_release -a`
+
 ## Lancer VSCode
 `code .`
 
