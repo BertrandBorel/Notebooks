@@ -1,7 +1,7 @@
-# Commandes Linux
+# Commandes Linux 
+<br>
 
 ## APT (Advanced Package Tool)
-
 ### MAJ :
 - `sudo apt update`
 - `sudo apt upgrade`
@@ -14,11 +14,10 @@
 #### Mettre à jour un package particulier :
 `sudo apt-get install --only-upgrade <packagename>`
 
-## Vérifier la version d'Ubuntu
+### Vérifier la version d'Ubuntu
 `lsb_release -a`
 
-
-
+<br>
 
 ## Visualisation des fichiers
 
@@ -46,6 +45,8 @@
 ### Afficher la fin d'un fichier
 `tail nom_fichier`
 
+<br>
+
 ## Dossier 
 
 ### Créer un dossier
@@ -56,6 +57,8 @@
 - `rm -r [nom]` = supprime dossier avec tout son contenu
 - Si le dossier est protégé utiliser : `rm -rf [nom]`
 - Si cela ne fonctionne pas, utiliser : `sudo rm -r -f [nom]`
+
+<br>
 
 ## Fichier 
 
@@ -71,7 +74,7 @@
 ### Renommer un fichier
 `mv ancien_nom.file nouveau_nom.file`
 
-
+<br>
 
 ## Déplacement
 
@@ -90,13 +93,12 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 ### Revenir à la racine
 `cd ~`
 
+<br>
 
 ## Autres commandes !
 
 ### Voir l'historique du terminal
 `history`
-
-
 
 ### Lire un fichier ligne par ligne
 `while read line; do echo $line; done < movies.json`
