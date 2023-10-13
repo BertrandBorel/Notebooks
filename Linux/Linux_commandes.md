@@ -22,7 +22,7 @@
 
 ## Visualisation des fichiers
 
-### Afficher les fichiers du dossier cournat
+### Afficher les fichiers du dossier courant
 `ls`
 
 ### Afficher les fichiers d'un dossier
