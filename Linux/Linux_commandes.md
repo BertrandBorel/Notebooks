@@ -1,10 +1,22 @@
 # Commandes Linux
 
+## APT (Advanced Package Tool)
+
+### MAJ :
+- `sudo apt update`
+- `sudo apt upgrade
+
+- Full command :  `sudo apt update && sudo apt full-upgrade -y`
+
+#### Lister les packages qui peuvent être mis à jour
+`apt list --upgradable`
+
+#### Mettre à jour un package particulier :
+`sudo apt-get install --only-upgrade <packagename>`
+
 ## Vérifier la version d'Ubuntu
 `lsb_release -a`
 
-## Lancer VSCode
-`code .`
 
 
 
@@ -76,30 +88,32 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 `cd -`
 
 
-## Voir l'historique du terminal
+## Autres commandes !
+
+### Voir l'historique du terminal
 `history`
 
 
 
-## Lire un fichier ligne par ligne
+### Lire un fichier ligne par ligne
 `while read line; do echo $line; done < movies.json`
 
-## Ecrire plusieurs lignes dans un fichier
-### Methode 1 :
+### Ecrire plusieurs lignes dans un fichier
+#### Methode 1 :
 `echo "line 1 content" >> myfile.txt`
 
 `echo "line 2 content" >> myfile.txt`
 
 `echo "line 3 content" >> myfile.txt`
 
-### Methode 2 :
+#### Methode 2 :
 `echo "line 1 content`
 
 `line 2 content`
 
 `line 3 content" >> myfile.txt`
 
-### Methode 3 :
+#### Methode 3 :
 `cat >> greetings.txt <<EOL`
 
 `line 1 content`
@@ -110,5 +124,8 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 
 `EOL`
 
-## Accéder aux fichiers Ubuntu dans l'explorer de Windows
+### Accéder aux fichiers Ubuntu dans l'explorer de Windows (avec WSL)
 `\\wsl$`
+
+### Lancer VSCode
+`code .`
