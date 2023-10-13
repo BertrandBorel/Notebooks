@@ -87,6 +87,9 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 ### Retourner au répertoire précédent
 `cd -`
 
+### Revenir à la racine
+`cd ~`
+
 
 ## Autres commandes !
 
