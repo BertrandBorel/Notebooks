@@ -18,3 +18,7 @@
   ```
   - Associer le référentiel local à GitLab : `git remote add origin URL_de_votre_projet_GitLab`
 - Pousser le code sur GitLab : `git push -u origin master`
+
+
+## Supprimer des ajouts git
+`git reset`
