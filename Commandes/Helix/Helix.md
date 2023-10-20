@@ -3,10 +3,14 @@
 ## ouvrir Helix : 
 `hx`
 
-## commandes :
-`echap:commande` <br>
+## Ouvrir la console `:`
 
-**quitter :** `echap:quit`
+**Structure d'une commande :** 
+`:commande` <br>
+
+**quitter :** `echap:quit` ou `:q!`
+
+## Ouvrir la palette de commande : `space
 
 ## déplacements :
 - haut : `K`
@@ -20,6 +24,11 @@
 `G` + ligne
 ### aller tout en bas :
 `E`
-
 ## mode insertion :
 `i`
+## mode suppression :
+`d`
+## Sauvegarder un fichier :
+`:w` ou `:write`
+## Sauvegarder et quitter : 
+`:wq` ou `:write-quit`
