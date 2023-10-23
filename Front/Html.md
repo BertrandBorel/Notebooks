@@ -31,4 +31,9 @@ Les éléments peuvent avoir des **attributs** : `<p class="Attribut" > ...`
 - listes non-ordonnées : l'ordre des éléments n'a pas d'importance (ex: *liste de courses*) => `<ul>`
 - listes ordonnées : ordre important (ex: *recette de cuisine*) => `<ol>`
 - chaque élément d'une liste est dans un élément `<li>`
-`
+
+## Liens
+`<a href="url">texte de l'url</a>`
+
+## Intégration du CSS dans l'HTML
+`<link href="styles/style.css" rel="stylesheet" type="text/css" />`
