@@ -21,3 +21,7 @@ sélecteur{
         [ propriété + valeur ] = déclaration ;  
         }
 ```
+
+
+## Commentaire : 
+`/*` et `*/`
