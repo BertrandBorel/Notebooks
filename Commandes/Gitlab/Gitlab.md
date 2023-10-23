@@ -22,3 +22,6 @@
 
 ## Supprimer des ajouts git
 `git reset`
+
+## Afficher l'url des dépôts distants
+`git remote -v`
