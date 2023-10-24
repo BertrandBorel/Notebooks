@@ -87,7 +87,7 @@ input:focus {
 ## Container 
 En CSS, le terme "container" n'a pas de signification spécifique définie par les spécifications CSS. Cependant, il est couramment utilisé dans le développement web pour faire référence à **un élément HTML qui agit comme un conteneur pour d'autres éléments**. La notion de conteneur est davantage une convention de nommage qu'une propriété CSS spécifique.
 
-Un "container" est généralement un élément HTML, tel qu'une `<div>``, qui est utilisé pour regrouper d'autres éléments, souvent dans le but de définir une mise en page ou un cadre pour le contenu. Le conteneur peut avoir des styles CSS qui définissent des marges, des rembourrages, des largeurs, des hauteurs, des arrière-plans, des bordures..., qui affectent son contenu.
+Un "container" est généralement un élément HTML, tel qu'une `<div>`, qui est utilisé pour regrouper d'autres éléments, souvent dans le but de définir une mise en page ou un cadre pour le contenu. Le conteneur peut avoir des styles CSS qui définissent des marges, des rembourrages, des largeurs, des hauteurs, des arrière-plans, des bordures..., qui affectent son contenu.
 
 ### Exemple :
 ```
