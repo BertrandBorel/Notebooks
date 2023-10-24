@@ -60,8 +60,33 @@ La classe "flex" elle-même n'est généralement pas suffisante pour créer une 
 - **self-start**, **self-center**, **self-end**,... : Contrôle l'alignement vertical de l'élément lui-même à l'intérieur du conteneur flex.
 - **order-1**, **order-2**,... : Modifie l'ordre des éléments à l'intérieur du conteneur flex.
 
+# Utility Classes
 
-## PADDING :
+## Font :
+```
+<p class="font-sans ...">
+<p class="font-serif ...">
+<p class="font-mono ...">
+```   
+- **Font Size** : `text-{size}` => xs, xl...
+- **Font Weight** : `font-{weight}` => bold, thin...
+- **Text Align** : `text-{alignment}` => left, center...
+
+## Container :
+```
+<div class="container">
+  <!-- ... -->
+</div>
+```
+
+## Colors : 
+```
+<p class="text-purple-600 ..."></p>
+<button class="bg-green-500 ...">Button</button>
+<input class="border-2 border-red-500 ...">
+```
+
+## Padding :
 Le padding (rembourrage en français) est un espace ajouté à l'intérieur d'un élément HTML.  
 Il est utilisé pour définir l'espace entre le contenu de l'élément et ses bords. Le padding est généralement utilisé pour améliorer la mise en page en ajoutant de l'espace autour du contenu, ce qui peut rendre le texte et d'autres éléments plus lisibles et esthétiques.
 
@@ -74,7 +99,7 @@ Il est utilisé pour définir l'espace entre le contenu de l'élément et ses bo
 
 - **pt-{size}**, **pr-{size}**, **pb-{size}**, **pl-{size}** : Ces classes ajoutent du padding à un côté spécifique de l'élément (haut, droit, bas ou gauche). Par exemple, pt-3 ajoutera du padding en haut de l'élément.
 
-## MARGIN :
+## Margin :
 La marge (margin en anglais) fait référence à l'espace ajouté autour d'un élément HTML.  
 Contrairement au padding, qui ajoute de l'espace à l'intérieur de l'élément, la marge crée de l'espace autour de l'élément, séparant ainsi cet élément d'autres éléments environnants.
 
@@ -83,3 +108,19 @@ Contrairement au padding, qui ajoute de l'espace à l'intérieur de l'élément,
 - **my-{size}** : Ajoute une marge de taille spécifiée sur les côtés supérieur et inférieur de l'élément, tout en maintenant une marge de zéro sur les côtés gauche et droit. Par exemple, my-6 ajoutera une marge de 1.5rem (24 pixels) en haut et en bas de l'élément.
 - **mx-{size}** : Ajoute une marge de taille spécifiée sur les côtés gauche et droit de l'élément, tout en maintenant une marge de zéro sur les côtés supérieur et inférieur. Par exemple, mx-8 ajoutera une marge de 2rem (32 pixels) à gauche et à droite de l'élément.
 - **mt-{size}**, **mr-{size}**, **mb-{size}**, **ml-{size}** : Ces classes ajoutent de la marge à un côté spécifique de l'élément (haut, droit, bas ou gauche). Par exemple, mt-3 ajoutera de la marge en haut de l'élément.
+
+## Width and Height :
+- **Height** : `h{direction}-{size}` => h-10, h-15...
+- **Width** : `w{direction}-{size}` => w-20, w-24
+
+## Display :
+Permet de définir la propriété CSS display d'un élément HTML en utilisant des classes prédéfinies. Elle simplifie la gestion de la mise en page et de la disposition des éléments sur une page web en offrant un moyen efficace de contrôler comment les éléments sont affichés.
+
+### Principales valeurs :
+- **display:block** : L'élément est rendu comme un bloc, prenant toute la largeur disponible et commençant sur une nouvelle ligne. C'est idéal pour la plupart des éléments de contenu.
+- **display:inline** : L'élément est rendu en ligne, occupant uniquement l'espace nécessaire et ne forçant pas de saut de ligne. Il est couramment utilisé pour les éléments en ligne tels que les liens.
+- **display:inline-block** : L'élément est rendu en ligne, mais il peut avoir des marges, des rembourrages et des dimensions définies, ce qui le rend utile pour les éléments en ligne avec des boîtes, tels que les boutons.
+- **display:none** : L'élément n'est pas rendu et n'occupe pas d'espace dans la mise en page. Il est utilisé pour cacher des éléments.
+- **display:flex** : L'élément est rendu comme un conteneur flex, ce qui permet de gérer la disposition des éléments enfants en utilisant les propriétés flexbox.
+- **display:inline-flex** : Similaire à display:flex, mais l'élément est rendu en ligne.
+- **display:grid** : L'élément est rendu comme un conteneur de grille, permettant de créer des mises en page en grille en utilisant les propriétés de la grille CSS.
