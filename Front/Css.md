@@ -41,3 +41,32 @@ sélecteur{
       - *inline* : L'élément occupe uniquement l'espace nécessaire, sans sauter à une nouvelle ligne.
       - *inline-block* : L'élément est en ligne, mais peut avoir des marges et des rembourrages, comme un élément de bloc.
       - *none* : L'élément n'est pas affiché et n'occupe pas d'espace dans la mise en page.
+
+
+## Pseudo-classes 
+Les **pseudo-classes** en CSS sont des sélecteurs spéciaux qui permettent de **cibler des éléments HTML en fonction d'états ou de relations spécifiques**, plutôt que simplement en fonction de leur type ou de leurs attributs.  
+Les pseudo-classes sont précédées par deux-points (:) dans une règle CSS.  
+Les pseudo-classes permettent d'ajouter de l'interactivité et de personnaliser l'apparence des éléments HTML en fonction des actions de l'utilisateur, améliorant ainsi l'expérience utilisateur et la convivialité d'un site web.
+
+### Utilisations courantes :
+- Créer des styles au survol de liens ou de boutons.
+- Modifier l'apparence des champs de formulaire lorsque l'utilisateur les sélectionne.
+- Créer des mises en page réactives en utilisant :nth-child() pour cibler des éléments spécifiques.
+- Cibler des éléments spécifiques au sein d'une liste.
+
+### `:hover`
+
+#### Description : 
+La pseudo-classe :hover est activée lorsque le curseur de la souris survole un élément HTML. Elle permet de modifier le style de l'élément lorsque l'utilisateur passe sa souris dessus.
+
+#### Utilisations courantes :
+- Changement de couleur, de fond ou d'opacité d'un bouton lorsqu'il est survolé.
+- Afficher des informations contextuelles lorsqu'un lien est survolé.
+- Animer des éléments lorsqu'ils sont survolés.
+
+#### Exemple :
+```
+a:hover {
+    color: #ff0000; /* Le texte devient rouge au survol */
+}
+```
