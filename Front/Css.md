@@ -27,7 +27,6 @@ sélecteur{
 `/*` et `*/`
 
 ## Eléments :
-
 - `font-size` : taille de la police (en **px**)
 - `text-align` : alignement du texte
 - `line-height` : espacement entre les lignes
@@ -55,9 +54,8 @@ Les pseudo-classes permettent d'ajouter de l'interactivité et de personnaliser 
 - Cibler des éléments spécifiques au sein d'une liste.
 
 ### `:hover`
-
 #### Description : 
-La pseudo-classe :hover est activée lorsque le curseur de la souris survole un élément HTML. Elle permet de modifier le style de l'élément lorsque l'utilisateur passe sa souris dessus.
+La pseudo-classe `:hover` est activée lorsque le curseur de la souris survole un élément HTML. **Elle permet de modifier le style de l'élément lorsque l'utilisateur passe sa souris dessus**.
 
 #### Utilisations courantes :
 - Changement de couleur, de fond ou d'opacité d'un bouton lorsqu'il est survolé.
@@ -70,3 +68,49 @@ a:hover {
     color: #ff0000; /* Le texte devient rouge au survol */
 }
 ```
+
+### `:focus`
+#### Description : 
+La pseudo-classe `:focus` est activée lorsque l'élément reçoit le focus, généralement par le biais de la tabulation (tabulation clavier) ou d'un événement similaire. Elle est particulièrement importante pour l'accessibilité des sites web.
+
+#### Utilisations courantes :
+- Mettre en évidence les champs de formulaire lorsqu'ils sont sélectionnés.
+- Créer des menus déroulants accessibles avec le clavier.
+
+#### Exemple :
+```
+input:focus {
+    border-color: #007bff; /* Le champ de saisie a une bordure bleue lorsqu'il est sélectionné */
+}
+```
+
+## Container 
+En CSS, le terme "container" n'a pas de signification spécifique définie par les spécifications CSS. Cependant, il est couramment utilisé dans le développement web pour faire référence à **un élément HTML qui agit comme un conteneur pour d'autres éléments**. La notion de conteneur est davantage une convention de nommage qu'une propriété CSS spécifique.
+
+Un "container" est généralement un élément HTML, tel qu'une `<div>``, qui est utilisé pour regrouper d'autres éléments, souvent dans le but de définir une mise en page ou un cadre pour le contenu. Le conteneur peut avoir des styles CSS qui définissent des marges, des rembourrages, des largeurs, des hauteurs, des arrière-plans, des bordures..., qui affectent son contenu.
+
+### Exemple :
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mon Conteneur</h1>
+        <p>Ceci est un exemple de conteneur en CSS.</p>
+    </div>
+</body>
+</html>
+```
+
+Dans cet exemple, la classe CSS `.container` est appliquée à la `<div>` qui entoure le titre `<h1>` et le paragraphe `<p>`. La classe `.container` définit un conteneur avec une largeur de 80%, des marges automatiques pour le centrer horizontalement, un rembourrage de 20px, et une bordure de 1px.   
+Cela permet de créer un cadre autour du contenu et de le centrer dans la fenêtre du navigateur.  
