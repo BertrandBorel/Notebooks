@@ -37,3 +37,7 @@ Les éléments peuvent avoir des **attributs** : `<p class="Attribut" > ...`
 
 ## Intégration du CSS dans l'HTML
 `<link href="styles/style.css" rel="stylesheet" type="text/css" />`
+
+## Balises Html 
+- `<em>` : texte en italique;
+- `<strong>` : gras
