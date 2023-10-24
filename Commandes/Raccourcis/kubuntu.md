@@ -32,6 +32,7 @@
 - `Ctrl + Maj + Z` : rétablir (ou `Ctrl + Y`)
 - `Ctrl + N` : nouveau
 - `Ctrl + P` : imprimer
+- `Ctrl + R` : chercher et remplacer
 
 ## Travailler avec des fichiers
 - `Ctrl + A` : sélectionner tout
