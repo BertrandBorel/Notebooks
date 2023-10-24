@@ -25,3 +25,19 @@ sélecteur{
 
 ## Commentaire : 
 `/*` et `*/`
+
+## Eléments :
+
+- `font-size` : taille de la police (en **px**)
+- `text-align` : alignement du texte
+- `line-height` : espacement entre les lignes
+- `letter-spacing` : espacement horizontal entre les caractères d'un texte
+- `width`, `height` : largeur, hauteur
+- `background-color` : la couleur d'arrière-plan
+- `text-shadow` : ajouter une ombre au texte
+- `display` : contrôle comment un élément HTML est rendu dans le flux du document. Elle définit le comportement de l'élément en termes de mise en page. 
+    Les valeurs courantes pour display comprennent :
+      - *block* : L'élément occupe toute la largeur disponible et commence sur une nouvelle ligne.
+      - *inline* : L'élément occupe uniquement l'espace nécessaire, sans sauter à une nouvelle ligne.
+      - *inline-block* : L'élément est en ligne, mais peut avoir des marges et des rembourrages, comme un élément de bloc.
+      - *none* : L'élément n'est pas affiché et n'occupe pas d'espace dans la mise en page.
