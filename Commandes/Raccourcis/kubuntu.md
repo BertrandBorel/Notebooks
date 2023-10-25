@@ -1,11 +1,18 @@
 # Raccourcis Kubuntu / KDE Plasma Desktop
 
+## Général :
+- `F1` : Help center
+- `dolphin` : ouvre l'interface graphique, ex: `dolphin ~/Documents`
+
 ## Travailler avec des fenêtres :
 - `Ctrl` + `Q` : quitter
 - `Ctrl` + `Echap` : activité du système
 - `Ctrl` + `Alt` + `Echap` : Forcer à quitter
 - `Alt` + `Echap` : Exécuter l'interface de commande (ou : `Alt + F2`);
 - `Alt` + `F4` : fermery
+- `Ctrl + N` : ouvrir une nouvelle fenêtre
+- `Ctrl + Maj + N` : ouvrir un nouvel onglet
+- `Ctrl + M` : afficher/masquer le menu
 
 ## Fenêtres : se déplacer
 - `Ctrl` + `F10` : Fenêtres actuelles
@@ -39,3 +46,10 @@
 - `Ctrl + L` : saisir un path
 - `Alt + =>` : fichier suivant
 - `ALt + haut` : remonter d'un niveau (path), ou : `Alt + <=` 
+
+## Travailler avec des dossiers :
+- `F10` : création d'un nouveau dossier
+- `F6` : choisir le path
+- `F4` : ouvrir la console
+- `F3` : split
+- `F2` : rename mode
