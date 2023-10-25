@@ -8,8 +8,8 @@
 - `Ctrl` + `Q` : quitter
 - `Ctrl` + `Echap` : activité du système
 - `Ctrl` + `Alt` + `Echap` : Forcer à quitter
-- `Alt` + `Echap` : Exécuter l'interface de commande (ou : `Alt + F2`);
-- `Alt` + `F4` : fermery
+- ``Alt + F2` : Exécuter l'interface de commande
+- `Alt` + `F4` : fermer
 - `Ctrl + N` : ouvrir une nouvelle fenêtre
 - `Ctrl + Maj + N` : ouvrir un nouvel onglet
 - `Ctrl + M` : afficher/masquer le menu
@@ -17,7 +17,7 @@
 ## Fenêtres : se déplacer
 - `Ctrl` + `F10` : Fenêtres actuelles
 - `Ctrl` + `F7` : Fenêtres de l'application actuelles
-- `Super + D` : minimiser/restaurer bureau
+- `Meta + D` : minimiser/restaurer bureau
 - `Alt + Tab` : traverser les fenêtres
 - `Alt + Maj + Tab` : parcourir les fenêtres (sens inverse)
 - `Alt + F3` : ouvrir le menu des opérations de la fenêtre
