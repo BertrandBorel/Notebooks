@@ -95,7 +95,7 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 
 <br>
 
-## Autres commandes !
+## Autres commandes
 
 ### Voir l'historique du terminal
 `history`
