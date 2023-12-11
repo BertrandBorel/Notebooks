@@ -21,14 +21,12 @@
 
 ## Visualisation des fichiers
 
-### Afficher les fichiers du dossier courant
-`ls`
+- `ls` : Afficher les fichiers du dossier courant
 
-### Afficher les fichiers d'un dossier
-`ls nom_dossier`
+- `ls nom_dossier` : Afficher les fichiers d'un dossier
 
-### Afficher tous les fichiers (mêmes cachés)
-`ls -a`
+- `ls -a` : Afficher tous les fichiers (mêmes cachés)
+
 
 ### Afficher le contenu d'un fichier
 `cat nom_fichier`
