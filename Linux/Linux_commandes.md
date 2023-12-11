@@ -95,10 +95,46 @@ Trouve le chemin du répertoire de travail dans lequel on se trouve. La commande
 
 <br>
 
-## Autres commandes
+## Terminal 
 
 ### Voir l'historique du terminal
 `history`
+
+### Rechercher une commande dans le terminal 
+`Ctrl + R`
+
+### Effacer le contenu de la console
+`Ctrl + L`
+<br>
+Ou commande `clear`
+
+### Quitter la console 
+`Ctrl + D`
+<br>
+Ou commande `exit`
+
+### Remonter les messages dans la console
+`Shift + PgUp` et `Shift + PgDown`
+
+### Ramener le curseur au début de la commande
+`Ctrl + A`
+
+### Déplacer le curseur à la fin de la commande
+`Ctrl + E`
+
+### Supprimer ce qui est à gauche du curseur 
+`Ctrl + U`
+
+### Supprimer ce qui est à droite du curseur 
+`Ctrl + K`
+
+### Supprimer le premier mot situé à gauche du curseur
+`Ctrl + W`
+
+## `Ctrl + Y` : 
+Si vous avez supprimé du texte avec une des commandes `Ctrl + U`, `Ctrl + K` ou `Ctrl + W` alors le raccourci « collera » le texte qui vient d'être supprimé, comme un couper-coller.
+
+## Autres commandes
 
 ### Lire un fichier ligne par ligne
 `while read line; do echo $line; done < movies.json`
