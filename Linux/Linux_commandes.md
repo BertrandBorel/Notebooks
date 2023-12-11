@@ -52,7 +52,10 @@
 `rm fichier`
 
 - `rm -i fichier` : demande une confirmation pour supprimer.
-- `rm -f fichier`: force la suppression. 
+- `rm -f fichier`: force la suppression.
+
+### Créer un raccourci pour un fichier
+`ln -s fichier1 fichier2`
 <br>
 
 ## Dossier 
