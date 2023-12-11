@@ -1,4 +1,6 @@
-paramètre court : un tiret + une seule lettre 
+## paramètre court
+
+un tiret + une seule lettre 
 
 #### Exemple :
 `commande -d`
@@ -11,7 +13,9 @@ ou :
 `commande -daUh`
 
 
-paramètre long :  deux tirets + plusieurs lettres
+## paramètre long 
+
+deux tirets + plusieurs lettres
 
 #### Exemple :
 `commande --parametre`
