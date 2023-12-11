@@ -33,6 +33,11 @@
 ### Afficher le contenu d'un fichier
 `cat nom_fichier`
 
+- `cat -n nom_fichier ` : affiche les numéros de ligne
+
+### Afficher le fichier page par page
+`less nom_fichier`
+
 ### Afficher une ligne d'un fichier
 `echo nom_fichier`
 
@@ -45,12 +50,19 @@
 ### Afficher la fin d'un fichier
 `tail nom_fichier`
 
+### Supprimer un fichier 
+`rm fichier`
+
+- `rm -i fichier` : demande une confirmation pour supprimer.
+- `rm -f fichier`: force la suppression. 
 <br>
 
 ## Dossier 
 
 ### Créer un dossier
 `mkdir nom_dossier`
+
+- `mkdir -p dossier/sous_dossier/encore` : permet de créer des dossiers intermédiaires avec `-p`
 
 ### Supprimer un dossier
 - `rmdir nom_dossier`
@@ -68,11 +80,18 @@
 ### Copier un fichier
 `cp source destination`
 
+- `cp -R dossier mon_dossier` : copie dossier et tous ses éléments sous le nom 'mon_dossier'.
+- `cp *.jpg mon_dossier` : permet de copier tous les fichiers `jpg` dans un sous dossier.
+- `cp code* mon_dossier` permet de copier tous les fichiers dont le nom commence par 'code'.
+
 ### Déplacer un fichier
 `mv source destination`
 
 ### Renommer un fichier
 `mv ancien_nom.file nouveau_nom.file`
+
+## Déplacer et renommer un fichier 
+`mv fichier mon_dossier/nouveau_fichier`
 
 <br>
 
