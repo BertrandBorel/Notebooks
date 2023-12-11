@@ -8,6 +8,11 @@
 
 - Full command :  `sudo apt update && sudo apt full-upgrade -y`
 
+- `apt-get update` : mise à jour du cache des paquets puis `apt-get upgrade`
+- `apt-get install` : installer un paquet
+- `apt-get remove nom_paquet` : supprimer un paquet
+- `apt-get autoremove  nom_paquet` : idem mais supprime aussi les dépendances inutiles
+
 #### Lister les packages qui peuvent être mis à jour
 `apt list --upgradable`
 
@@ -91,10 +96,12 @@
 ### Renommer un fichier
 `mv ancien_nom.file nouveau_nom.file`
 
-## Déplacer et renommer un fichier 
+### Déplacer et renommer un fichier 
 `mv fichier mon_dossier/nouveau_fichier`
 
-<br>
+## Rechercher des fichiers
+- `locate mon_fichier`
+- `find -name "logo.png"` : recherche par nom 
 
 ## Déplacement
 
