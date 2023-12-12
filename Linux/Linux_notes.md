@@ -71,10 +71,10 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 
 - ## Surveiller l'activité d'un système
 
-- `ps` : liste statique des processus => 4 éléments : - `PID` : c'est le numéro d'identification du processus. Chaque processus a un numéro unique qui permet de l'identifier. Ce numéro nous sera utile plus tard lorsque                                                                nous voudrons arrêter le processus.
-                                                      - `TTY` : c'est le nom de la console depuis laquelle a été lancé le processus.
+- `ps` : liste statique des processus => 4 éléments : - `PID` : c'est le numéro d'identification du processus. Chaque processus a un numéro unique qui permet de l'identifier. Ce numéro nous sera utile plus tard lorsque                                                                nous voudrons arrêter le processus. <br>
+                                                      - `TTY` : c'est le nom de la console depuis laquelle a été lancé le processus.<br>
                                                       - `TIME` : la durée d'exécution du processus. Plus exactement, cela correspond à la durée pendant laquelle le processus a occupé le processeur depuis son lancement.
-                                                      - `CMD` : le programme qui a généré ce processus. Si vous voyez plusieurs fois le même programme, c'est que celui-ci s'est dupliqué en plusieurs processus (c'est le                                                                cas de MySQL, par exemple).
+                                                      - `CMD` : le programme qui a généré ce processus. Si vous voyez plusieurs fois le même programme, c'est que celui-ci s'est dupliqué en plusieurs processus (c'est le                                                                cas de MySQL, par exemple).<br>
 - `ps -ef` : lister tous les processus
 - `ps -ejH` : afficher les processus en arbre
 - `ps -u UTILISATEUR` : lister les processus lancés par un utilisateur                                   
