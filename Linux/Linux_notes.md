@@ -65,3 +65,6 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 - `2>` : redirige les erreurs dans un fichier (s'il existe déjà, il sera écrasé)
 - `2>>` : redirige les erreurs à la fin d'un fichier (s'il n'existe pas, il sera créé
 - `2>&1` : Fusionner les sorties : redirige les erreurs au même endroit et de la même façon que la sortie standard.
+- `<` : lire depuis un fichier : envoie le contenu d'un fichier à une commande
+- `<<` : lire depuis le clavier progressivement : passe la console en mode saisie au clavier, ligne par ligne. Toutes ces lignes seront envoyées à la commande lorsque le mot-clé de fin aura été écrit
+- `|` : chaîner les commandes
