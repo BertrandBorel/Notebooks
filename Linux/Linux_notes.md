@@ -68,3 +68,24 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 - `<` : lire depuis un fichier : envoie le contenu d'un fichier à une commande
 - `<<` : lire depuis le clavier progressivement : passe la console en mode saisie au clavier, ligne par ligne. Toutes ces lignes seront envoyées à la commande lorsque le mot-clé de fin aura été écrit
 - `|` : chaîner les commandes
+
+- ## Surveiller l'activité d'un système
+
+- `ps` : liste statique des processus => 4 éléments : - `PID` : c'est le numéro d'identification du processus. Chaque processus a un numéro unique qui permet de l'identifier. Ce numéro nous sera utile plus tard lorsque                                                                nous voudrons arrêter le processus.
+                                                      - `TTY` : c'est le nom de la console depuis laquelle a été lancé le processus.
+                                                      - `TIME` : la durée d'exécution du processus. Plus exactement, cela correspond à la durée pendant laquelle le processus a occupé le processeur depuis son lancement.
+                                                      - `CMD` : le programme qui a généré ce processus. Si vous voyez plusieurs fois le même programme, c'est que celui-ci s'est dupliqué en plusieurs processus (c'est le                                                                cas de MySQL, par exemple).
+- `ps -ef` : lister tous les processus
+- `ps -ejH` : afficher les processus en arbre
+- `ps -u UTILISATEUR` : lister les processus lancés par un utilisateur                                   
+- `top` : liste dynamique des processus
+
+### Commandes pour arrêter un processus
+- `Ctrl + C` : arrêter un processus lancé en console
+- `kill` : tuer un processus
+- `killall` : tuer plusieurs processus
+
+### Autres commandes
+- `halt` : arrêter l'ordinateur
+- `reboot` : redémarrer l'ordinateur
+- `w` : indique quels utilisateurs sont sur la machine, ce qu'ils font et quelques autres statistiques comme la charge de travail de la machine et son uptime.
