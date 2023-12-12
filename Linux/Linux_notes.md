@@ -58,3 +58,10 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
    - `wc` : compter le nombre de lignes
    - `uniq` : supprimer les doublons
    - `cut` : couper une partie du fichier
+
+## Flux de redirection
+- `>` : redirige dans un fichier et l'écrase s'il existe déjà ;
+- `>>` : redirige à la fin d'un fichier et le crée s'il n'existe pas.
+- `2>` : redirige les erreurs dans un fichier (s'il existe déjà, il sera écrasé)
+- `2>>` : redirige les erreurs à la fin d'un fichier (s'il n'existe pas, il sera créé
+- `2>&1` : Fusionner les sorties : redirige les erreurs au même endroit et de la même façon que la sortie standard.
