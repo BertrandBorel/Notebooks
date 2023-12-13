@@ -91,3 +91,13 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 - `halt` : arrêter l'ordinateur
 - `reboot` : redémarrer l'ordinateur
 - `w` : indique quels utilisateurs sont sur la machine, ce qu'ils font et quelques autres statistiques comme la charge de travail de la machine et son uptime.
+
+## Exécuter des programmes en arrière-plan
+
+- `&` : lancer un processus en arrière-plan
+- `nohup` : détacher le processus de la console
+- `Ctrl + Z` : mettre en pause l'exécution du programme
+- `bg` : passer le processus en arrière-plan
+- `jobs` : connaître les processus qui tournent en arrière-plan
+- `fg` : reprendre un processus au premier plan
+- `screen` : plusieurs consoles en une. Il permet d'ouvrir plusieurs consoles virtuelles au sein d'une seule et même console, et donc d'exécuter facilement plusieurs processus en parallèle.
