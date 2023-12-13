@@ -101,3 +101,13 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 - `jobs` : connaître les processus qui tournent en arrière-plan
 - `fg` : reprendre un processus au premier plan
 - `screen` : plusieurs consoles en une. Il permet d'ouvrir plusieurs consoles virtuelles au sein d'une seule et même console, et donc d'exécuter facilement plusieurs processus en parallèle.
+
+## Exécuter une commande plus tard
+-  `at` : Exécuter une commande à une heure précise => `at 15:25`
+-  `at now` : Exécuter une commande après un certain délai => `at now +10 minutes/weeks/days...`
+
+## Exécuter plusieurs commandes en 1
+`touch fichier.txt; rm fichier.txt` => faire une pause : `touch fichier.txt; sleep 10; rm fichier.txt`
+
+## `crontab` : exécuter une commande régulièrement
+Permet de programmer des commandes pour une exécution régulière. Par exemple : tous les jours à 18 h 30, tous les lundis et mardis à 12 h, tous les 5 du mois, etc. On modifie la programmation avec `crontab -e`.
