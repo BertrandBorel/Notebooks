@@ -111,3 +111,26 @@ Il est également possible de chercher avec une regex : `grep -E my_regex my_fil
 
 ## `crontab` : exécuter une commande régulièrement
 Permet de programmer des commandes pour une exécution régulière. Par exemple : tous les jours à 18 h 30, tous les lundis et mardis à 12 h, tous les 5 du mois, etc. On modifie la programmation avec `crontab -e`.
+
+## Compresser des fichiers sous Linux
+
+- `tar`: réunir les fichiers dans un seul gros fichier appelé archive
+- compresser le gros fichier ainsi obtenu à l'aide de `gzip` ou de `bzip2`.
+
+### Commandes :
+- création d'une archive : `tar -cvf nom_archive.tar nom_dossier/`
+   - `-c` : créer une archive tar ;
+   - `-v` : afficher le détail des opérations ;
+   - `-f` : assembler l'archive dans un fichier.
+- `-tf` : afficher le contenu de l'archive sans l'extraire
+- `-rvf` : ajouter un fichier
+- `-xvf` : extraire les fichiers de l'archive
+- Exemple de compression : `gzip tutoriels.tar`
+- Décompression : `gunzip tutoriels.tar.gz`
+
+## Transfert de fichiers
+- `wget` permet de télécharger un fichier.
+- Pour copier des fichiers d'un ordinateur à un autre, on `utilisescp`. Il fonctionne à l'aide de SSH, donc le transfert est sécurisé.
+- On peut se connecter à un serveur FTP avec la commande `ftp` pour y télécharger et y envoyer des fichiers.
+- Il existe une alternative sécurisée à FTP qui crypte les échanges grâce à SSH : `sftp`.
+- `rsync` permet de synchroniser le contenu de deux dossiers sur un même ordinateur ou sur deux ordinateurs différents. Il est particulièrement utile pour effectuer des sauvegardes.
