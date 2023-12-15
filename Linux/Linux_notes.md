@@ -129,7 +129,7 @@ Permet de programmer des commandes pour une exécution régulière. Par exemple 
 - Décompression : `gunzip tutoriels.tar.gz`
 
 ## Transfert de fichiers
-- `wget` permet de télécharger un fichier.
+- `wget` permet de télécharger un fichier. (`--background` pour le faire en arrière-plan)
 - Pour copier des fichiers d'un ordinateur à un autre, on `utilisescp`. Il fonctionne à l'aide de SSH, donc le transfert est sécurisé.
 - On peut se connecter à un serveur FTP avec la commande `ftp` pour y télécharger et y envoyer des fichiers.
 - Il existe une alternative sécurisée à FTP qui crypte les échanges grâce à SSH : `sftp`.
