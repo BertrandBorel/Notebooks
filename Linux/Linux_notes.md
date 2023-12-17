@@ -134,3 +134,8 @@ Permet de programmer des commandes pour une exécution régulière. Par exemple 
 - On peut se connecter à un serveur FTP avec la commande `ftp` pour y télécharger et y envoyer des fichiers.
 - Il existe une alternative sécurisée à FTP qui crypte les échanges grâce à SSH : `sftp`.
 - `rsync` permet de synchroniser le contenu de deux dossiers sur un même ordinateur ou sur deux ordinateurs différents. Il est particulièrement utile pour effectuer des sauvegardes.
+
+
+## Réseau
+- `ifconfigliste` : mosteles interfaces réseau (cartes réseau) de votre machine et permet de les configurer ainsi que de les activer.
+- `netstataffiche` la liste des connexions ouvertes sur votre machine. Elle indique notamment quel port est utilisé à chaque fois, le port représentant en quelque sorte la porte d'entrée à votre machine.
