@@ -192,3 +192,6 @@ EOL
 
 ### Lancer VSCode
 `code .`
+
+### Régler les problèmes internet 
+`ifconfig`
