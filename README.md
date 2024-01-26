@@ -1,5 +1,5 @@
 # Notebooks
-Cours et rappels de certaines notions. 
+
 
 ## Sommaire : 
 
@@ -17,4 +17,7 @@ Cours et rappels de certaines notions.
   - [MongoDB](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/Mongodb.ipynb)
   - [PyMongo](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/PyMongo.ipynb)
   - [VSCode](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/Raccourcis/VSCode.ipynb)
-  - [Windows](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/Raccourcis/Windows.ipynb) 
+  - [Windows](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/Raccourcis/Windows.ipynb)
+
+ - [Environnements virtuels](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/env)
+   
