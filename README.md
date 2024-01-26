@@ -3,7 +3,7 @@ Cours et rappels de certaines notions.
 
 ## Sommaire : 
 
--[Commandes](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes) : 
+- [Commandes](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes) : 
   - [GitLab](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Gitlab)
   - [Helix](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Helix) 
 
