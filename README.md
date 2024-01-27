@@ -5,7 +5,8 @@
 
 - [Commandes](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes) : 
   - [GitLab](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Gitlab)
-  - [Helix](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Helix) 
+  - [Helix](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Helix)
+  - [Linux](https://github.com/BertrandBorel/Notebooks/blob/main/Linux/Linux_commandes.md)
 
 - [Shortcuts](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Raccourcis) :
   - [Brave](https://github.com/BertrandBorel/Notebooks/blob/main/Commandes/Raccourcis/Raccourcis_Brave.pdf)
