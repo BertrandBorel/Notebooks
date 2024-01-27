@@ -4,7 +4,7 @@
 ## Sommaire : 
 
 - [Commandes](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes) : 
-  - [GitLab](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Gitlab)
+  - [GitLab](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Gitlab/Gitlab.md)
   - [Helix](https://github.com/BertrandBorel/Notebooks/tree/main/Commandes/Helix)
   - [Linux](https://github.com/BertrandBorel/Notebooks/blob/main/Linux/Linux_commandes.md)
 
